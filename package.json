@@ -14,12 +14,29 @@
       "id": "jane",
       "aliases": ["Jane", "jane"],
       "extensions": [".jn",".🩵"],
-      "configuration": "./language-configuration.json"
+      "configuration": "./language-configuration-jane.json",
+      "icon": {
+        "dark": "./assets/janelogo.svg",
+        "light": "./assets/janelogo.svg"
+      }
+    }, {
+      "id": "john",
+      "aliases": ["JOHN", "John", "john"],
+      "extensions": [".john", ".🩷"],
+      "configuration": "./language-configuration-john.json",
+      "icon": {
+        "dark": "./assets/johnlogo.svg",
+        "light": "./assets/johnlogo.svg"
+      }
     }],
     "grammars": [{
       "language": "jane",
       "scopeName": "source.jn",
       "path": "./syntaxes/jane.tmLanguage.json"
+    }, {
+      "language": "john",
+      "scopeName": "source.john",
+      "path": "./syntaxes/john.tmLanguage.json"
     }]
   }
 }

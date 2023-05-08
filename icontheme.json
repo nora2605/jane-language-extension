@@ -1,0 +1,10 @@
+{
+  "iconDefinitions": {
+    "_jane_file": {
+      "iconPath": "./assets/janelogo.svg"
+    },
+    "_john_file": {
+      "iconPath": "./assets/johnlogo.svg"
+    }
+  }
+}
