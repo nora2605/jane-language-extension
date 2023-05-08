@@ -1,0 +1,25 @@
+{
+  "name": "jane-language",
+  "displayName": "Jane Language",
+  "description": "VSCode support for the Jane Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jane",
+      "aliases": ["Jane", "jane"],
+      "extensions": [".jn",".🩵"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jane",
+      "scopeName": "source.jn",
+      "path": "./syntaxes/jane.tmLanguage.json"
+    }]
+  }
+}
